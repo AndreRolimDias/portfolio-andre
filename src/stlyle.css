@@ -15,9 +15,9 @@ body {
 nav {
   background-color: #0a0e16;
   height: 50px;
-  width: 90%;
+  width: 100%;
   border-radius: 20px;
-  margin: 38px 0 0 40px;
+  margin: 38px 0 0 0;
 }
 
 .navbar_link ul,
@@ -29,7 +29,7 @@ nav {
   padding: 7px 13px;
   line-height: 80px;
   text-transform: uppercase;
-  margin: -19px 26px;
+  margin: -19px 33.5px;
 }
 .navbar_link ul,
 .navbar_link li,
@@ -37,33 +37,110 @@ nav {
   color: #846cda;
   transition: 0.5s;
 }
+
 .hero h3 {
   font-size: 20px;
   color: #846cda;
   letter-spacing: 1px;
-  margin: 16px 90px;
+  margin-top: 103px;
+  text-align: center;
 }
 .hero h1 {
   font-size: 30px;
+  text-align: center;
   letter-spacing: 2px;
   color: #fff;
-  margin: 16px 90px;
+  margin: 16px;
 }
 .hero small {
   color: #454652;
+  font-size: 15px;
   letter-spacing: 1px;
-  margin: 16px 90px;
+  text-align: center;
+  display: block;
 }
+
 .icone a {
+  width: 80px;
   color: #454652;
   margin: 16px 0 0 0;
 }
 .fab {
-  margin: 0 0 0 840px;
+  margin: 15px 0 0 495px;
 }
 .image {
-  margin: -208px 0 0 365px;
+  width: 300px;
+  margin: -250px 0 0 95px;
 }
-.quote hr {
+hr {
   background-color: #846cda;
+  margin: 30px;
+}
+h2 {
+  color: #454652;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.quote {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 100px;
+}
+.card {
+  text-align: center;
+  border: solid 0.3px;
+  border-radius: 5px;
+  border-color: #846cda;
+  height: 180px;
+  width: 72%;
+}
+.quote_b {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 100px;
+}
+.card_b,
+.card_c {
+  text-align: center;
+  border: solid 0.3px;
+  border-radius: 5px;
+  border-color: #846cda;
+  height: 180px;
+  width: 36%;
+  margin-bottom: 20px;
+}
+.card_b {
+  margin-left: 250px;
+}
+
+.fa {
+  color: #fff;
+  width: 100px;
+}
+.quote small {
+  color: #454652;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.quote h3 {
+  color: #fff;
+  font-size: 22px;
+  margin-top: 5px;
+}
+.quote_b small {
+  color: #454652;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.quote_b h3 {
+  color: #fff;
+  font-size: 22px;
+  margin-top: 5px;
+}
+.fa-solid {
+  color: #846cda;
+  margin: 10px;
 }
