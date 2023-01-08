@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
-
+@import url("https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js");
 * {
   margin: 0;
   padding: 0;
@@ -143,4 +143,53 @@ h2 {
 .fa-solid {
   color: #846cda;
   margin: 10px;
+}
+
+.image_02 {
+  width: 300px;
+  margin-left: 70px;
+}
+.sobre h3 {
+  color: #846cda;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.sobre small {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 300px;
+}
+.skill {
+  text-align: center;
+}
+.skill small {
+  color: #846cda;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.skill h3 {
+  color: #fff;
+  font-size: 25px;
+  margin: 15px;
+}
+.skill h4 {
+  color: #454652;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.skill {
+  color: #846cda;
+  font-size: 60px;
+}
+.skill h5 {
+  color: #454652;
+  font-size: 18px;
+  margin: 40px;
 }
