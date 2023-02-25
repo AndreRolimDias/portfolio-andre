@@ -1,23 +1,30 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
-@import url("https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url('https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: "montserrat", sans-serif;
+  font-family: 'montserrat', sans-serif;
 }
+
 body {
   background-color: #0f1120;
 }
+
 nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
   background-color: #0a0e16;
   height: 50px;
   width: 100%;
   border-radius: 20px;
-  margin: 38px 0 0 0;
 }
 
 .navbar_link ul,
@@ -26,25 +33,29 @@ nav {
   display: inline-block;
   font-size: 17px;
   color: #454652;
-  padding: 7px 13px;
-  line-height: 80px;
   text-transform: uppercase;
-  margin: -19px 33.5px;
+  padding: 0 20px;
 }
+
 .navbar_link ul,
 .navbar_link li,
 .navbar_link a:hover {
   color: #846cda;
   transition: 0.5s;
 }
+#inicio {
+  display: grid;
+  justify-content: center;
+}
 
 .hero h3 {
   font-size: 20px;
   color: #846cda;
   letter-spacing: 1px;
-  margin-top: 103px;
+  margin-top: 10px;
   text-align: center;
 }
+
 .hero h1 {
   font-size: 30px;
   text-align: center;
@@ -52,6 +63,7 @@ nav {
   color: #fff;
   margin: 16px;
 }
+
 .hero small {
   color: #454652;
   font-size: 15px;
@@ -61,63 +73,74 @@ nav {
 }
 
 .icone a {
-  width: 80px;
   color: #454652;
-  margin: 16px 0 0 0;
+  margin-left: 5px;
 }
+
 .fab {
-  margin: 15px 0 0 495px;
+  margin-left: 90px;
 }
+
 .image {
   width: 300px;
-  margin: -250px 0 0 95px;
+  height: 280px;
+  margin-top: 60px;
 }
+
 hr {
   background-color: #846cda;
   margin: 30px;
 }
+
 h2 {
   color: #454652;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 30px;
 }
+
 .quote {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: 100px;
+  display: flex;
+  justify-content: center;
 }
+
 .card {
   text-align: center;
   border: solid 0.3px;
   border-radius: 5px;
   border-color: #846cda;
-  height: 180px;
-  width: 72%;
+  margin: 0 30px;
+  padding: 10px;
 }
+
 .quote_b {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 100px;
+  display: flex;
+  justify-content: center;
 }
-.card_b,
+
+.card_b {
+  text-align: center;
+  border: solid 0.3px;
+  border-radius: 5px;
+  border-color: #846cda;
+  margin: 0 30px;
+  padding: 10px 45px;
+}
+
 .card_c {
   text-align: center;
   border: solid 0.3px;
   border-radius: 5px;
   border-color: #846cda;
-  height: 180px;
-  width: 36%;
-  margin-bottom: 20px;
-}
-.card_b {
-  margin-left: 250px;
+  margin: 0 30px;
+  padding: 10px;
 }
 
 .fa {
   color: #fff;
   width: 100px;
 }
+
 .quote small {
   color: #454652;
   font-size: 15px;
@@ -129,6 +152,7 @@ h2 {
   font-size: 22px;
   margin-top: 5px;
 }
+
 .quote_b small {
   color: #454652;
   font-size: 15px;
@@ -140,6 +164,7 @@ h2 {
   font-size: 22px;
   margin-top: 5px;
 }
+
 .fa-solid {
   color: #846cda;
   margin: 10px;
@@ -147,49 +172,123 @@ h2 {
 
 .image_02 {
   width: 300px;
-  margin-left: 70px;
+  height: 280px;
+  margin: 30px 0px 0 30px;
 }
-.sobre h3 {
+
+#sobre h3 {
   color: #846cda;
   text-align: center;
   letter-spacing: 1px;
-  margin-bottom: 20px;
+  margin: 50px 0 10px 0;
 }
-.sobre small {
+
+#sobre small {
   color: #fff;
   font-size: 15px;
   letter-spacing: 1px;
 }
-.sobre {
+
+#sobre {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-right: 300px;
+  grid-template-columns: 1fr 2fr 1fr;
 }
-.skill {
+
+#habilidades {
   text-align: center;
 }
-.skill small {
+
+#habilidades small {
   color: #846cda;
   font-size: 18px;
   letter-spacing: 1px;
 }
-.skill h3 {
+
+#habilidades h3 {
   color: #fff;
   font-size: 25px;
   margin: 15px;
 }
-.skill h4 {
+
+#habilidades h4 {
   color: #454652;
   letter-spacing: 1px;
   font-size: 18px;
   margin-bottom: 40px;
 }
-.skill {
+
+#habilidades {
   color: #846cda;
   font-size: 60px;
 }
-.skill h5 {
+
+#habilidades h5 {
   color: #454652;
   font-size: 18px;
   margin: 40px;
+}
+
+.project h3 {
+  color: #846cda;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 30px;
+}
+.project small {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 0 200px;
+}
+
+.gifs {
+  text-align: center;
+  border: solid 0.3px;
+  border-radius: 5px;
+  border-color: #846cda;
+  height: 250px;
+  width: 25%;
+  margin: 10px 10px;
+}
+
+.card h4 {
+  color: #454652;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.gifs h4 {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.gifs h6 {
+  color: #454652;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.gifs a {
+  width: 80px;
+  color: #454652;
+  display: inline-block;
+  margin: 0 120px 0 0;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.project-gif {
+  margin-left: 10px;
+  height: 110px;
+  width: 180px;
 }
