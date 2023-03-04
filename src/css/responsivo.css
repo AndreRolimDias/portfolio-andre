@@ -1,0 +1,88 @@
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  .navbar_link ul,
+  .navbar_link li,
+  .navbar_link a {
+    display: none;
+  }
+  .image {
+    margin-top: 10px;
+  }
+  .quote,
+  .quote_b {
+    font-size: 10px;
+  }
+
+  .card small {
+    font-size: 14px;
+  }
+  .card h3 {
+    font-size: 16px;
+  }
+  .card_b small,
+  .card_c small {
+    font-size: 14px;
+  }
+  .card_b h3,
+  .card_c h3 {
+    font-size: 16px;
+  }
+
+  .card_b,
+  .card_c {
+    padding: 05px;
+  }
+
+  .quote {
+    display: block;
+  }
+  .card {
+    margin-bottom: 10px;
+  }
+
+  .quote_b {
+    display: block;
+  }
+  .card_b {
+    margin-bottom: 10px;
+  }
+
+  #sobre {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .image_02 {
+    margin: 0;
+  }
+
+  #sobre h3 {
+    margin: 0;
+  }
+
+  .project small {
+    display: unset;
+    margin: 0;
+  }
+
+  .project-cards {
+    display: block;
+  }
+
+  .gifs_card {
+    text-align: center;
+    border: solid 0.3px;
+    border-radius: 5px;
+    border-color: #846cda;
+    width: 90%;
+  }
+
+  .project-gif {
+    margin: auto;
+    width: 200px;
+    height: 130px;
+  }
+}

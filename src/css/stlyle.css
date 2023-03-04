@@ -49,6 +49,7 @@ nav {
   color: #846cda;
   transition: 0.5s;
 }
+
 #inicio {
   display: grid;
   justify-content: center;
@@ -247,10 +248,11 @@ h2 {
   color: #fff;
   font-size: 15px;
   letter-spacing: 1px;
+  line-height: 20px;
   margin: 0 200px;
 }
 
-.gifs {
+.gifs_card {
   text-align: center;
   border: solid 0.3px;
   border-radius: 5px;
@@ -260,20 +262,14 @@ h2 {
   margin: 10px 10px;
 }
 
-.card h4 {
-  color: #454652;
-  letter-spacing: 1px;
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-.gifs h4 {
+.gifs_card h4 {
   color: #fff;
   letter-spacing: 1px;
   font-size: 18px;
   margin-bottom: 5px;
 }
 
-.gifs h6 {
+.gifs_card h6 {
   color: #454652;
   font-size: 16px;
   font-weight: lighter;
@@ -281,7 +277,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-.gifs a {
+.gifs_card a {
   width: 80px;
   color: #454652;
   display: inline-block;
