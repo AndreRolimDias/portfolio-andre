@@ -80,6 +80,16 @@
     width: 90%;
   }
 
+  .gifs_card h4 {
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .gifs_card h6 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
   .project-gif {
     margin: auto;
     width: 200px;
